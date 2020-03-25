@@ -2,14 +2,14 @@
 
 This is a simulation of the solar system.
 
-Planets/sun rotate at different speeds and directions, and planets orbit at different speeds. The values used in the simulation are taken from the Planetary Fact Sheet of NASA. Flying cat spaceships travel in different directions and speeds. They are navigating to a planet and upon arrival go on a new adventure. There is one light source positioned at (0,0,0), which is the sun. The camera is looking from one object to another.
+The planets and sun rotate at different speeds and directions; planets and the moon orbit at different speeds. The values used in the simulation are taken from the Planetary Fact Sheet of NASA. Flying cat spaceships travel in different directions and speeds. They are navigating to a planet and upon arrival go on a new adventure. There is one light source positioned at (0,0,0), which is the sun. The camera is looking from one object to another.
 
 Controls:
 * Look from: dropdown to select from which object the camera is looking
 * Look at: dropdown to select which object the camera is looking at
 	- You can look from an object to itself: the camera will look along the +z-axis
 * Zoom: zoom in or out by changing the field of view
-* Height: how far away the camera is from the center of the object it is looking at
+* Height: how far away the camera is from the center of the object it is looking from
 * Angle: angle relative to the view direction.
 	- Examples:
 		- Angle = 0: the camera is behind LookFrom, so LookFrom lies directly in the line of sight with LookAt
